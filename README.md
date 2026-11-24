@@ -30,7 +30,7 @@ Install controls vary by browser and device. The web app remains usable in a nor
 
 ## Windows desktop beta
 
-Windows Beta 1 is distributed from the [Windows Release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1). It provides independent sticky-note windows with separate task lists.
+The [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) is being finalized. Downloads and checksums will appear there when the release is published. It provides independent sticky-note windows with separate task lists.
 
 - Choose yellow, pink, and blue paper; move and resize each note.
 - Mark tasks complete, edit them, and scroll longer lists.
@@ -63,7 +63,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 **Is the Web/PWA app available?** Yes. Open [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It uses local browser storage and has no cross-device sync.
 
-**Where can I get the Windows beta?** See the [Windows Beta 1 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) for downloads and SHA-256 checksums.
+**Where will the Windows beta be available?** Downloads and SHA-256 checksums will be posted on the [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) after publication.
 
 **Will notes sync between Web and Windows?** No. Each version uses its own local storage.
 
