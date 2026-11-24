@@ -45,6 +45,28 @@ The [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-S
 
 The beta executables are unsigned. Windows SmartScreen, Defender, or corporate endpoint controls may warn or block them. Do not bypass organizational security policy.
 
+### Microsoft Defender SmartScreen warning
+
+When launching Setup or Portable, Windows may display **“Windows protected your PC”**. Beta 1 is not Authenticode-signed and may not yet have sufficient SmartScreen reputation. This warning alone does not indicate malware detection, nor does it establish that a file is safe.
+
+1. Download only from the [official release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
+2. Compare the downloaded file's SHA-256 with `SHA256SUMS.txt` from the same release. Open PowerShell in your downloads folder:
+
+   ```powershell
+   Get-FileHash -LiteralPath ".\SKYNI-Sticky-Tasks-Setup.exe" -Algorithm SHA256
+   Get-FileHash -LiteralPath ".\SKYNI-Sticky-Tasks-Portable.exe" -Algorithm SHA256
+   ```
+
+   Run the command for the variant you downloaded. Expected SHA-256 values for Beta 1:
+
+   - Setup: `4ee8fb14f627d9601420907dfcf8a650be240a3667eb87c34d6dd1fc521331b1`
+   - Portable: `e5a8bb06cbbf1a4932c01759c1805816116af740ee32b3d3df9f16f24a9eb12b`
+
+3. If the hash differs, do not run the file. A matching hash verifies integrity against the published file, not freedom from malware. Scan the file with antivirus software.
+4. If you trust the source, have verified the file, and your device policy permits it, select **More info → Run anyway** in SmartScreen if that option is available. If unsure, select **Don't run**.
+
+Do not disable SmartScreen or Defender or circumvent organizational restrictions. If policy blocks execution, contact your administrator or use the [Web/PWA](https://skyni-sticky.vercel.app/). Reputation can differ between builds; disappearance of the warning is not guaranteed.
+
 ### Privacy, storage and removal
 
 Web/PWA notes stay in IndexedDB in the browser profile where they were created. Desktop notes stay in the local Windows user profile. Neither version requires an account or provides cloud synchronization. Export important notes as JSON backups. Browser and Desktop storage are separate.
