@@ -30,7 +30,7 @@
 
 ## Бета-версия для Windows
 
-Страница [релиза Windows Beta 1](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) готовится к публикации. Файлы и контрольные суммы появятся там после публикации. Desktop-версия создаёт независимые окна-стикеры с отдельными списками дел.
+На [странице релиза Windows Beta 1](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) доступны установщик, Portable-версия, инструкции, сведения о сборке и контрольные суммы SHA-256. Desktop-версия создаёт независимые окна-стикеры с отдельными списками дел.
 
 - Жёлтая, розовая и голубая бумага; каждый стикер можно перемещать и менять его размер.
 - Отметка выполненных дел, редактирование и прокрутка длинного списка.
@@ -63,7 +63,7 @@
 
 **Доступна ли Web/PWA?** Да. Откройте [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). Заметки хранятся локально в браузере; синхронизации между устройствами нет.
 
-**Где будут доступны файлы Windows-беты?** Файлы и контрольные суммы SHA-256 появятся на [странице Windows Beta 1](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) после публикации.
+**Где скачать Windows-бету?** Установщик, Portable-версия, инструкции, сведения о сборке и контрольные суммы SHA-256 доступны на [странице Windows Beta 1](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
 
 **Синхронизируются ли заметки между Web и Windows?** Нет. Каждая версия использует собственное локальное хранилище.
 
