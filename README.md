@@ -4,9 +4,7 @@
 
 **Your thoughts. Always visible.** Paper-like notes for quick tasks, available as a Web/PWA app and a Windows desktop beta.
 
-[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/)
-
-> The Web/PWA app is live. The Windows beta downloads are still being prepared and are not attached to this repository or a Release.
+[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/) · [Windows Beta 1 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1)
 
 ![Windows manager with sample notes](assets/screenshots/windows-manager.jpg)
 
@@ -32,7 +30,7 @@ Install controls vary by browser and device. The web app remains usable in a nor
 
 ## Windows desktop beta
 
-The desktop version provides independent sticky-note windows with separate task lists.
+Windows Beta 1 is distributed from the [Windows Release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1). It provides independent sticky-note windows with separate task lists.
 
 - Choose yellow, pink, and blue paper; move and resize each note.
 - Mark tasks complete, edit them, and scroll longer lists.
@@ -45,11 +43,13 @@ The desktop version provides independent sticky-note windows with separate task 
 - Microsoft Edge WebView2 Evergreen Runtime. The portable app depends on it. The installer is configured for per-user installation and can bootstrap a missing runtime online; a fully offline installation requires WebView2 to be provisioned already.
 - No administrator rights are intended for the per-user installer, but confirm this under your organization’s policy.
 
-The beta executables are unsigned. Windows SmartScreen, Defender, or corporate endpoint controls may warn or block them. Do not bypass organizational security policy. When Windows downloads are approved, they will be listed on [Releases](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases).
+The beta executables are unsigned. Windows SmartScreen, Defender, or corporate endpoint controls may warn or block them. Do not bypass organizational security policy.
 
-## Privacy and storage
+### Privacy, storage and removal
 
 Web/PWA notes stay in IndexedDB in the browser profile where they were created. Desktop notes stay in the local Windows user profile. Neither version requires an account or provides cloud synchronization. Export important notes as JSON backups. Browser and Desktop storage are separate.
+
+On some Windows 11 systems the app may not appear in **Installed Apps** or **Programs and Features**. The cause has not been established. If the standard list does not show it, use the app’s Settings uninstall action or the Start menu uninstall shortcut where available. Uninstalling with the app-data option disabled preserves notes.
 
 ## Screenshots
 
@@ -63,7 +63,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 **Is the Web/PWA app available?** Yes. Open [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It uses local browser storage and has no cross-device sync.
 
-**Are Windows downloads available?** Not yet. This public page does not contain an EXE or installer; the Windows beta remains subject to final user acceptance.
+**Where can I get the Windows beta?** See the [Windows Beta 1 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) for downloads and SHA-256 checksums.
 
 **Will notes sync between Web and Windows?** No. Each version uses its own local storage.
 
@@ -73,11 +73,17 @@ These screenshots show the real Windows application with demonstration notes.
 
 ## Known limitations
 
-- Windows beta files are not published yet. When available, verify release notes and SHA-256 checksums.
 - Windows 10, corporate-managed PCs, multi-monitor/DPI combinations, and missing-runtime installation need additional target-device acceptance.
 - Unsigned Windows executables can trigger security warnings.
+- Some Windows 11 configurations may omit the app from standard installed-app lists; use the in-app Settings action or Start menu uninstall shortcut.
 - Web/PWA installation depends on browser and device support; offline use requires an initial successful online load.
 - No macOS or iOS desktop package is available.
+
+## Feedback
+
+Ideas, suggestions, or feedback: [info.sticky@familylinck.com](mailto:info.sticky@familylinck.com).
+
+Follow [SKYNI Labs on LinkedIn](https://www.linkedin.com/company/144806007/).
 
 ## Language
 
