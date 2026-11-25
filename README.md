@@ -18,6 +18,10 @@ Open the app at [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It 
 - Install it as a PWA when your browser offers installation.
 - After the first successful online load, the app shell and required resources are cached for offline reload.
 
+### Web v1.3.1
+
+- Hovering a resize edge or corner shows one branded directional indicator without a duplicate system resize cursor. Resize behavior and hit areas remain unchanged.
+
 ### Web v1.3.0
 
 - Resize Web stickers from all eight edges and corners. Their sizes and board positions persist locally and remain unchanged when the browser window is temporarily resized.

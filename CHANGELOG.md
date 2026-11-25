@@ -1,5 +1,15 @@
 # Changelog / История изменений
 
+## Web v1.3.1
+
+### English
+
+- Removed the duplicate system resize cursor so hover shows only the branded directional indicators. Resize behavior and hit areas are unchanged.
+
+### Русский
+
+- Убран дублирующий системный resize-курсор: при наведении остаются только фирменные направленные индикаторы. Механика и области захвата не изменены.
+
 ## Web v1.3.0
 
 ### English
