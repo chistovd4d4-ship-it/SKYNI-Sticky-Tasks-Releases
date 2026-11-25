@@ -1,5 +1,21 @@
 # Changelog / История изменений
 
+## Web v1.3.0
+
+### English
+
+- Added persistent eight-direction sticker resizing, responsive board behavior, and adjustable local green paper color while preserving Web v1.2.0 workspace and sidecar data.
+- Added local task due dates with red text for overdue unfinished tasks.
+- Added Globe and Mail attachment icons and a delayed, wrapped full-text tooltip for overflowing tasks; the tooltip supports paper colors, themes, keyboard use, and detached stickers.
+- Retained RU/EN, Light/Dark/System, JSON export/import, task markers, local email/link attachments, offline/PWA support, and local-only task storage.
+
+### Русский
+
+- Добавлены сохраняемый resize стикеров в восьми направлениях, адаптивная доска и локальный зелёный цвет бумаги с сохранением совместимости с данными Web v1.2.0.
+- Добавлены локальные сроки задач и красный текст для просроченных незавершённых задач.
+- Добавлены иконки Globe и Mail, а также отложенная подсказка с полным текстом переполненной задачи; она поддерживает цвета бумаги, темы, клавиатуру и вынесенные стикеры.
+- Сохранены RU/EN, Light/Dark/System, JSON экспорт/импорт, маркеры, локальные URL/почтовые вложения, офлайн/PWA и хранение задач только в браузере.
+
 ## Web v1.2.0
 
 ### English

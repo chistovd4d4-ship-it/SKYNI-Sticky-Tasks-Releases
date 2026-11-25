@@ -18,6 +18,16 @@ Open the app at [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It 
 - Install it as a PWA when your browser offers installation.
 - After the first successful online load, the app shell and required resources are cached for offline reload.
 
+### Web v1.3.0
+
+- Resize Web stickers from all eight edges and corners. Their sizes and board positions persist locally and remain unchanged when the browser window is temporarily resized.
+- Set a local due date on a task; overdue unfinished tasks are shown in red.
+- Choose yellow, cream, pink, blue, or green paper. Long task text that does not fit shows a full wrapped tooltip after a short delay, including in a detached sticker window.
+- Distinguish web links and email attachments with Globe and Mail icons. Existing task markers, `.msg`/`.eml` attachments, and URL attachments remain available.
+- Switch RU/EN and Light/Dark/System. Task content stays in this browser profile; Web v1.2.0 IndexedDB data and JSON backups remain supported.
+
+![SKYNI Sticky Tasks Web v1.3.0 workspace](assets/screenshots/web-v1.3.0-workspace.png)
+
 Browser notes are separate from Windows Desktop notes. Neither version synchronizes notes between devices. A regular browser popup cannot guarantee Always on Top; Document Picture-in-Picture is available only in supported browsers and contexts.
 
 ### Install the PWA
@@ -77,6 +87,8 @@ Do not disable SmartScreen or Defender or circumvent organizational restrictions
 ### Privacy, storage and removal
 
 Web/PWA notes stay in IndexedDB in the browser profile where they were created. Desktop notes stay in the local Windows user profile. Neither version requires an account or provides cloud synchronization. Export important notes as JSON backups. Browser and Desktop storage are separate.
+
+On the Production Web site, Vercel Analytics measures canonical page views only. It does not receive sticker or task text, local IDs, query parameters, or attachment contents. Core app features and local storage continue to work when analytics is unavailable.
 
 On some Windows 11 systems the app may not appear in **Installed Apps** or **Programs and Features**. The cause has not been established. If the standard list does not show it, use the app’s Settings uninstall action or the Start menu uninstall shortcut where available. Uninstalling with the app-data option disabled preserves notes.
 
