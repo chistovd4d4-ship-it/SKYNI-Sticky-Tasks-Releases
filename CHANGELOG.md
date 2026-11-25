@@ -1,5 +1,19 @@
 # Changelog / История изменений
 
+## Web v1.2.0
+
+### English
+
+- Added five translucent task markers that can be assigned, changed, or removed independently of sticker color.
+- Added one local URL, `.msg`, or `.eml` attachment per task, with a 20 MB per-file limit. Attachments are included in JSON backup and restore and stay in browser IndexedDB; they are not uploaded.
+- Improved attachment handling for safe URL opening and mail-file download. Automatic opening in Outlook and Outlook drag-and-drop depend on browser support.
+
+### Русский
+
+- Добавлены пять полупрозрачных маркеров задач, которые можно назначать, менять и убирать независимо от цвета стикера.
+- Добавлено одно локальное вложение на задачу: URL, `.msg` или `.eml`, размером до 20 МБ. Вложения включаются в JSON-экспорт и восстановление, хранятся в IndexedDB браузера и не загружаются на сервер.
+- Улучшена безопасная обработка ссылок и скачивание файлов писем. Автоматическое открытие в Outlook и перетаскивание из Outlook зависят от поддержки браузера.
+
 ## Web v1.1.0
 
 ### English

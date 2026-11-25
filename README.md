@@ -28,6 +28,13 @@ Browser notes are separate from Windows Desktop notes. Neither version synchroni
 
 Install controls vary by browser and device. The web app remains usable in a normal browser tab when installation is not offered.
 
+### Task markers and attachments (Web v1.2.0)
+
+- Add, change, or remove five translucent task-row markers: red, yellow, green, blue, and purple.
+- Attach one HTTP/HTTPS or webmail link, or one `.msg` / `.eml` file to a task. Email files are limited to 20 MB each.
+- Email files are stored in IndexedDB in the current browser profile. They are not uploaded to SKYNI servers and are excluded from analytics. JSON export/import includes the attachments.
+- Links open in a new browser tab. Browsers may download `.msg` / `.eml` files for the installed mail app; automatic Outlook launch and direct Outlook drag-and-drop depend on browser support.
+
 ## Windows desktop beta
 
 The [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) provides the Setup installer, Portable executable, instructions, build information, and SHA-256 checksums. The beta provides independent sticky-note windows with separate task lists.
