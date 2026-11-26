@@ -1,5 +1,25 @@
 # Changelog / История изменений
 
+## Web v1.4.0
+
+### English
+
+- Added task reordering by drag and drop, keyboard, and task menu, with order preserved through reload and JSON round trips.
+- Added upcoming due-date emphasis in amber for 1–4 days and red for unfinished tasks due today or earlier, based on the local calendar.
+- Moved recovery backup controls into Settings beside JSON export/import. A verified local backup is created before replacement imports; valid backups show their creation time and support download and confirmed restore.
+- Added a subtle 5 px rounded Settings scrollbar styled for Light/Dark/System while retaining native scrolling.
+- Preserved local attachments, existing JSON compatibility, offline/PWA updates, and detached sticker behavior.
+
+### Русский
+
+- Добавлена перестановка задач перетаскиванием, клавиатурой и через меню; порядок сохраняется после перезагрузки и JSON экспорта/импорта.
+- Добавлено янтарное выделение срока за 1–4 дня и красный цвет невыполненных задач на сегодня и ранее по локальному календарю.
+- Управление резервной копией перенесено в настройки рядом с экспортом/импортом JSON. Перед заменой данных создаётся проверенная локальная копия; у валидных копий отображается дата, доступны скачивание и восстановление с подтверждением.
+- Добавлена тонкая скруглённая полоса прокрутки настроек (5 px) с темами Light/Dark/System; нативная прокрутка сохранена.
+- Сохранены локальные вложения, совместимость JSON, offline/PWA обновления и работа отделённых стикеров.
+
+Изменение scrollbar относится только к Web Settings. Windows использует отдельный компонент настроек, поэтому замечание к нему неприменимо; Windows worktree не менялся.
+
 ## Web v1.3.1
 
 ### English
