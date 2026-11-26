@@ -18,6 +18,14 @@ Open the app at [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It 
 - Install it as a PWA when your browser offers installation.
 - After the first successful online load, the app shell and required resources are cached for offline reload.
 
+### Web v1.4.0
+
+- Reorder tasks inside a sticker by drag and drop, keyboard controls, or the task menu; task order is preserved through reload and JSON export/import.
+- Due dates follow the local calendar: tasks due in 1–4 days are amber, and tasks due today or earlier are red when unfinished.
+- Manage recovery backups in Settings next to JSON export/import. The app creates a verified local backup before import replaces workspace data; valid backups show their creation time and can be downloaded or restored after confirmation.
+- Settings uses a thin, rounded scrollbar styled for Light/Dark/System. Native wheel, touch, and keyboard scrolling remain available.
+- Existing local storage, attachments, offline/PWA update behavior, and detached sticker windows remain supported.
+
 ### Web v1.3.1
 
 - Hovering a resize edge or corner shows one branded directional indicator without a duplicate system resize cursor. Resize behavior and hit areas remain unchanged.
