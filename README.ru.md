@@ -117,7 +117,7 @@ Windows 0.2.0-beta.2 опубликована как prerelease: [Setup](https:/
 
 ## Обратная связь
 
-Идеи, пожелания и замечания: [info.sticky@familylinck.com](mailto:info.sticky@familylinck.com).
+Идеи, пожелания и замечания: [создайте issue на GitHub](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/issues).
 
 Следите за [SKYNI Labs в LinkedIn](https://www.linkedin.com/company/144806007/).
 

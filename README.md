@@ -117,7 +117,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 ## Feedback
 
-Ideas, suggestions, or feedback: [info.sticky@familylinck.com](mailto:info.sticky@familylinck.com).
+Ideas, suggestions, or feedback: [open a GitHub issue](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/issues).
 
 Follow [SKYNI Labs on LinkedIn](https://www.linkedin.com/company/144806007/).
 
