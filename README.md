@@ -67,7 +67,7 @@ Beta 2 adds task reordering by drag and drop or keyboard controls, amber upcomin
 
 ### Upgrade from Beta 1
 
-Beta 1 does not include an updater. The first transition is manual. Close Beta 1, make and verify an external backup of the complete application data folder (workspace, settings, geometry, backups, and attachments), and keep the Beta 1 installer for rollback. Download Beta 2 Setup, verify it against the release signatures and `SHA256SUMS.txt`, then install manually. Keep the existing application data directory and verify your notes after the first launch. Do not remove the backup until migration is confirmed. [Beta 1 rollback files](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
+Beta 1 does not include an updater. The first transition is manual. Close Beta 1, make and verify an external backup of the complete application data folder (workspace, settings, geometry, backups, and attachments), and keep the Beta 1 installer for rollback. Download [Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), verify it against the release signatures and `SHA256SUMS.txt`, then install manually. Keep the existing application data directory and verify your notes after the first launch. Do not remove the backup until migration is confirmed. [Beta 1 rollback files](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
 
 ### Windows requirements and signature status
 
