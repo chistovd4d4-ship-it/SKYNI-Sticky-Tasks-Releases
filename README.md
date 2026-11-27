@@ -4,7 +4,7 @@
 
 **Your thoughts. Always visible.** Paper-like notes for quick tasks, available as a Web/PWA app and a Windows desktop beta.
 
-[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/) · [Windows Beta 1 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1)
+[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/) · [Windows Beta 2 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2)
 
 ![Windows manager with sample notes](assets/screenshots/windows-manager.jpg)
 
@@ -59,42 +59,25 @@ Install controls vary by browser and device. The web app remains usable in a nor
 
 ## Windows desktop beta
 
-The [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1) provides the Setup installer, Portable executable, instructions, build information, and SHA-256 checksums. The beta provides independent sticky-note windows with separate task lists.
+Windows 0.2.0-beta.2 is available as a public prerelease: [Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Setup.exe) · [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Portable.exe) · [all release files and notes](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2).
 
-- Choose yellow, pink, and blue paper; move and resize each note.
-- Mark tasks complete, edit them, and scroll longer lists.
-- Set Always on Top independently for each sticker.
-- Keep notes on this Windows PC. No account or cloud synchronization is provided.
+Beta 2 adds task reordering by drag and drop or keyboard controls, amber upcoming-deadline and red overdue highlighting, five task color markers, green sticky notes, URL and email-file attachments, resizable independent windows, export/import, and verified local backups. The Web and Windows versions keep separate local data; there is no account or cloud sync.
 
-### Windows requirements
+### Upgrade from Beta 1
 
-- 64-bit Windows. Windows 11 was used for the available desktop checks; Windows 10 and managed corporate devices still need user-side verification.
-- Microsoft Edge WebView2 Evergreen Runtime. The portable app depends on it. The installer is configured for per-user installation and can bootstrap a missing runtime online; a fully offline installation requires WebView2 to be provisioned already.
-- No administrator rights are intended for the per-user installer, but confirm this under your organization’s policy.
+Beta 1 does not include an updater. The first transition is manual. Close Beta 1, make and verify an external backup of the complete application data folder (workspace, settings, geometry, backups, and attachments), and keep the Beta 1 installer for rollback. Download Beta 2 Setup, verify it against the release signatures and `SHA256SUMS.txt`, then install manually. Keep the existing application data directory and verify your notes after the first launch. Do not remove the backup until migration is confirmed. [Beta 1 rollback files](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
 
-The beta executables are unsigned. Windows SmartScreen, Defender, or corporate endpoint controls may warn or block them. Do not bypass organizational security policy.
+### Windows requirements and signature status
 
-### Microsoft Defender SmartScreen warning
+- 64-bit Windows and Microsoft Edge WebView2 Evergreen Runtime. The installer can download a missing runtime; Portable requires WebView2 to be present.
+- Setup has a Tauri updater signature and a Minisign signature; Portable has a Minisign signature. SHA-256 checksums are published for the release files. They are **not Authenticode-signed**; SmartScreen or endpoint protection may warn. Do not bypass organizational security policy.
+- The built-in production update manifest is intentionally not activated yet. The current endpoint has no manifest, so Beta 2 is not offered in-app. Real updater installation and rollback have not been tested.
 
-When launching Setup or Portable, Windows may display **“Windows protected your PC”**. Beta 1 is not Authenticode-signed and may not yet have sufficient SmartScreen reputation. This warning alone does not indicate malware detection, nor does it establish that a file is safe.
+### Known limitations
 
-1. Download only from the [official release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
-2. Compare the downloaded file's SHA-256 with `SHA256SUMS.txt` from the same release. Open PowerShell in your downloads folder:
-
-   ```powershell
-   Get-FileHash -LiteralPath ".\SKYNI-Sticky-Tasks-Setup.exe" -Algorithm SHA256
-   Get-FileHash -LiteralPath ".\SKYNI-Sticky-Tasks-Portable.exe" -Algorithm SHA256
-   ```
-
-   Run the command for the variant you downloaded. Expected SHA-256 values for Beta 1:
-
-   - Setup: `4ee8fb14f627d9601420907dfcf8a650be240a3667eb87c34d6dd1fc521331b1`
-   - Portable: `e5a8bb06cbbf1a4932c01759c1805816116af740ee32b3d3df9f16f24a9eb12b`
-
-3. If the hash differs, do not run the file. A matching hash verifies integrity against the published file, not freedom from malware. Scan the file with antivirus software.
-4. If you trust the source, have verified the file, and your device policy permits it, select **More info → Run anyway** in SmartScreen if that option is available. If unsure, select **Don't run**.
-
-Do not disable SmartScreen or Defender or circumvent organizational restrictions. If policy blocks execution, contact your administrator or use the [Web/PWA](https://skyni-sticky.vercel.app/). Reputation can differ between builds; disappearance of the warning is not guaranteed.
+- EML/MSG handling and direct Outlook drag-and-drop were not tested in the manual acceptance; they were conditionally accepted for this beta.
+- Real updater installation, restart, and rollback remain untested in an isolated Windows VM/Sandbox.
+- Windows 10, managed devices, unusual DPI and multi-monitor combinations still need additional device acceptance.
 
 ### Privacy, storage and removal
 
@@ -116,7 +99,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 **Is the Web/PWA app available?** Yes. Open [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It uses local browser storage and has no cross-device sync.
 
-**Where can I download the Windows beta?** The installer, Portable executable, instructions, build information, and SHA-256 checksums are available on the [Windows Beta 1 release page](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
+**Where can I download the Windows beta?** Download [Windows Beta 2 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Portable.exe), and the full [release package](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2). The production updater manifest is not active yet.
 
 **Will notes sync between Web and Windows?** No. Each version uses its own local storage.
 
