@@ -61,13 +61,13 @@
 
 Windows 0.2.0-beta.3 — текущая prerelease-версия с исправлениями приватности: [Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe) · [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe) · [все файлы и заметки релиза](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3).
 
-Beta 1 и Beta 2 помечены как superseded. Их страницы и файлы остаются доступными для восстановления и отката; для новой загрузки используйте Beta 3.
+Публичное распространение Beta 1 и Beta 2 прекращено после проверки конфиденциальности. Их релизные файлы удалены; не устанавливайте и не распространяйте ранее скачанные копии. Текущий privacy-remediated prerelease — Windows Beta 3.
 
 В Beta 2 добавлены перестановка задач перетаскиванием и клавиатурой, янтарное выделение приближающихся сроков и красное просроченных, пять цветовых маркеров задач, зелёные стикеры, URL- и почтовые вложения, изменение размеров отдельных окон, экспорт/импорт и проверенные локальные резервные копии. Web и Windows хранят данные отдельно; учётной записи и облачной синхронизации нет.
 
 ### Переход с Beta 1
 
-В Beta 1 нет updater. Первый переход выполняется вручную. Закройте Beta 1, создайте и проверьте внешнюю резервную копию всего каталога данных приложения (workspace, настройки, геометрия окон, резервные копии и вложения), сохраните установщик Beta 1 для отката. Скачайте [Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), проверьте подписи релиза и `SHA256SUMS.txt`, затем запустите установку вручную. Сохраните существующий каталог данных и проверьте заметки после первого запуска. Не удаляйте резервную копию до подтверждения миграции. [Файлы для возврата к Beta 1](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
+В Beta 1 нет updater. Первый переход выполняется вручную. Закройте Beta 1 и создайте и проверьте внешнюю резервную копию всего каталога данных приложения (workspace, настройки, геометрия окон, резервные копии и вложения). Публичные файлы Beta 1 сняты; откат на неё не рекомендуется. Скачайте [Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), проверьте подписи релиза и `SHA256SUMS.txt`, затем запустите установку вручную. Сохраните существующий каталог данных и проверьте заметки после первого запуска. Не удаляйте резервную копию до подтверждения миграции.
 
 ### Требования Windows и подписи
 
@@ -101,7 +101,7 @@ Beta 1 и Beta 2 помечены как superseded. Их страницы и ф
 
 **Доступна ли Web/PWA?** Да. Откройте [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). Заметки хранятся локально в браузере; синхронизации между устройствами нет.
 
-**Где скачать Windows-бету?** Скачайте [Windows Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe) и остальные [файлы релиза](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3). Beta 1 и Beta 2 superseded, их файлы остаются доступны для отката. Production manifest updater пока не активен.
+**Где скачать Windows-бету?** Скачайте [Windows Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe) и остальные [файлы релиза](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3). Файлы Beta 1 и Beta 2 сняты и недоступны; не устанавливайте и не распространяйте ранее скачанные копии. Production manifest updater пока не активен.
 
 **Синхронизируются ли заметки между Web и Windows?** Нет. Каждая версия использует собственное локальное хранилище.
 

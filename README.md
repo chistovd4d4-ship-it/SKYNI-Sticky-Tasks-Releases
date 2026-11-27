@@ -61,13 +61,13 @@ Install controls vary by browser and device. The web app remains usable in a nor
 
 Windows 0.2.0-beta.3 is the current privacy-remediated prerelease: [Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe) · [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe) · [all release files and notes](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3).
 
-Beta 1 and Beta 2 are superseded. Their release pages and files remain available for rollback and recovery; new downloads should use Beta 3.
+Beta 1 and Beta 2 have been withdrawn after a privacy review. Their release assets are no longer available; do not install or redistribute previously downloaded copies. Windows Beta 3 is the current privacy-remediated prerelease.
 
 Beta 2 adds task reordering by drag and drop or keyboard controls, amber upcoming-deadline and red overdue highlighting, five task color markers, green sticky notes, URL and email-file attachments, resizable independent windows, export/import, and verified local backups. The Web and Windows versions keep separate local data; there is no account or cloud sync.
 
 ### Upgrade from Beta 1
 
-Beta 1 does not include an updater. The first transition is manual. Close Beta 1, make and verify an external backup of the complete application data folder (workspace, settings, geometry, backups, and attachments), and keep the Beta 1 installer for rollback. Download [Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), verify it against the release signatures and `SHA256SUMS.txt`, then install manually. Keep the existing application data directory and verify your notes after the first launch. Do not remove the backup until migration is confirmed. [Beta 1 rollback files](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.1.0-beta.1).
+Beta 1 does not include an updater. The first transition is manual. Close Beta 1 and make and verify an external backup of the complete application data folder (workspace, settings, geometry, backups, and attachments). Beta 1 has been withdrawn; rollback to it is not recommended. Download [Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), verify it against the release signatures and `SHA256SUMS.txt`, then install manually. Keep the existing application data directory and verify your notes after the first launch. Do not remove the backup until migration is confirmed.
 
 ### Windows requirements and signature status
 
@@ -101,7 +101,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 **Is the Web/PWA app available?** Yes. Open [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It uses local browser storage and has no cross-device sync.
 
-**Where can I download the Windows beta?** Download [Windows Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe), and the full [release package](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3). Beta 1 and Beta 2 are superseded, but their files remain available for rollback. The production updater manifest is not active yet.
+**Where can I download the Windows beta?** Download [Windows Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe), and the full [release package](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3). Beta 1 and Beta 2 assets have been withdrawn and are unavailable. Do not install or redistribute previously downloaded copies. The production updater manifest is not active yet.
 
 **Will notes sync between Web and Windows?** No. Each version uses its own local storage.
 
