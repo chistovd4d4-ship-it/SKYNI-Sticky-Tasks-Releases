@@ -1,5 +1,15 @@
 # Changelog / История изменений
 
+## Current releases: Web 1.4.0 and Windows Beta 2 (Revision 3)
+
+### English
+
+Windows Beta 2 (Revision 3), technical version `0.2.0-beta.3`, is a privacy-only technical revision of the Windows Beta 2 feature release. It introduces no new user-facing functionality. The production updater endpoint remains inactive; EML/MSG handling, Outlook drag-and-drop, and real updater installation/rollback are still unverified.
+
+### Русский
+
+Windows Beta 2 (Revision 3), техническая версия `0.2.0-beta.3`, — техническая ревизия функционального релиза Windows Beta 2 только с исправлениями приватности. Новых пользовательских функций нет. Production endpoint updater остаётся неактивным; обработка EML/MSG, перетаскивание из Outlook и реальная установка/откат updater пока не проверены.
+
 ## Web v1.4.0
 
 ### English
