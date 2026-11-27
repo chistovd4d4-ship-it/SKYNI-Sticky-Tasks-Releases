@@ -4,7 +4,7 @@
 
 **Your thoughts. Always visible.** Paper-like notes for quick tasks, available as a Web/PWA app and a Windows desktop beta.
 
-[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/) · [Windows Beta 2 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2)
+[Open SKYNI Sticky Tasks Web/PWA](https://skyni-sticky.vercel.app/) · [Windows Beta 3 release](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3)
 
 ![Windows manager with sample notes](assets/screenshots/windows-manager.jpg)
 
@@ -59,7 +59,9 @@ Install controls vary by browser and device. The web app remains usable in a nor
 
 ## Windows desktop beta
 
-Windows 0.2.0-beta.2 is available as a public prerelease: [Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Setup.exe) · [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Portable.exe) · [all release files and notes](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2).
+Windows 0.2.0-beta.3 is the current privacy-remediated prerelease: [Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe) · [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe) · [all release files and notes](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3).
+
+Beta 1 and Beta 2 are superseded. Their release pages and files remain available for rollback and recovery; new downloads should use Beta 3.
 
 Beta 2 adds task reordering by drag and drop or keyboard controls, amber upcoming-deadline and red overdue highlighting, five task color markers, green sticky notes, URL and email-file attachments, resizable independent windows, export/import, and verified local backups. The Web and Windows versions keep separate local data; there is no account or cloud sync.
 
@@ -99,7 +101,7 @@ These screenshots show the real Windows application with demonstration notes.
 
 **Is the Web/PWA app available?** Yes. Open [skyni-sticky.vercel.app](https://skyni-sticky.vercel.app/). It uses local browser storage and has no cross-device sync.
 
-**Where can I download the Windows beta?** Download [Windows Beta 2 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.2/SKYNI-Sticky-Tasks-Portable.exe), and the full [release package](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.2). The production updater manifest is not active yet.
+**Where can I download the Windows beta?** Download [Windows Beta 3 Setup](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Setup.exe), [Portable](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/download/v0.2.0-beta.3/SKYNI-Sticky-Tasks-Portable.exe), and the full [release package](https://github.com/chistovd4d4-ship-it/SKYNI-Sticky-Tasks-Releases/releases/tag/v0.2.0-beta.3). Beta 1 and Beta 2 are superseded, but their files remain available for rollback. The production updater manifest is not active yet.
 
 **Will notes sync between Web and Windows?** No. Each version uses its own local storage.
 
